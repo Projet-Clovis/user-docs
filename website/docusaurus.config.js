@@ -98,13 +98,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Projet-Clovis/clovis',
+            'https://github.com/projet-clovis/clovis',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Projet-Clovis/clovis',
+            'https://github.com/projet-clovis/clovis',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

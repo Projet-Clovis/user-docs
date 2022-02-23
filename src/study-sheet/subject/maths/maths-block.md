@@ -14,13 +14,25 @@ Plus d'informations ci-dessous.
 5x + 3
 ```
 va produire :
+
 $5x+3$
 
 
 ## Bloc "Latex et texte"
 
+### Symbole `$` (un seul dollar)
 ```tex
 La formule $5x + 3$
 ```
 va produire :
+
 La formule $5x+3$
+
+### Symbole `$$` (double dollar)
+```tex
+La formule :
+$$ 5x + 3 $$
+```
+va produire :
+
+La formule $$5x+3$$

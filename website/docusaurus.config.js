@@ -6,12 +6,12 @@ module.exports = {
   title: 'Clovis Docs',
   tagline: 'Clovis documentation for developers',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/user-docs/',
+  baseUrl: '/user-docs/website/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'clovis', // Usually your GitHub org/user name.
-  projectName: 'clovis', // Usually your repo name.
+  organizationName: 'projet-clovis', // Usually your GitHub org/user name.
+  projectName: 'user-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Projet Clovis',

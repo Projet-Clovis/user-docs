@@ -1,0 +1,205 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #2f80ed;
+    --ifm-color-primary-dark: rgb(33, 175, 144);
+    --ifm-color-primary-darker: rgb(31, 165, 136);
+    --ifm-color-primary-darkest: rgb(26, 136, 112);
+    --ifm-color-primary-light: rgb(70, 203, 174);
+    --ifm-color-primary-lighter: rgb(102, 212, 189);
+    --ifm-color-primary-lightest: rgb(146, 224, 208);
+    --ifm-code-font-size: 95%;
+    --ifm-font-size-base: 95%;
+    --ifm-font-family-base: Inter, "Segoe UI", sans-serif;
+    --ifm-font-family-monospace: "Jetbrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__title {
+    font-weight: 600;
+}
+
+
+/* ---------- title ---------- */
+:root {
+    --grey0: #fbfbfe;
+    --grey1: #f0f2f6;
+    --grey2: #dce1eb;
+    --grey3: #b4bdcd;
+    --grey4: #82889c;
+    --grey5: #4b4f64;
+    --grey6: #2d334b;
+}
+
+html[data-theme='light'] {
+    --h1-color: var(--grey6);
+    --h2-color: var(--grey5);
+    --h3-color: var(--grey4);
+    --h4-color: var(--grey3);
+}
+
+html[data-theme='dark'] {
+    --h1-color: var(--grey1);
+    --h2-color: var(--grey2);
+    --h3-color: var(--grey3);
+    --h4-color: var(--grey4);
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6 {
+    border-bottom: 1px solid var(--ifm-color-emphasis-300);
+    padding-bottom: 4px;
+    font-weight: 600;
+    color: var(--h1-color);
+    letter-spacing: 0.5px;
+}
+
+.markdown h1 {
+    font-size: 36px;
+}
+
+.markdown h2 {
+    font-size: 30px;
+}
+
+.markdown h3 {
+    font-size: 24px;
+}
+
+.markdown h4 {
+    font-size: 20px;
+}
+
+.markdown code {
+    border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+
+/* ---------- custom doc style ---------- */
+html {
+    scroll-behavior: smooth;
+}
+
+[data-theme=light] .docMainContainer_3ufF {
+    background-color: #F9FAFB;
+}
+
+[data-theme=light] .docItemContainer_33ec {
+    background-color: #ffffff;
+}
+
+[data-theme=dark] .docMainContainer_3ufF {
+  background-color: #323235;
+}
+
+[data-theme=dark] .docItemContainer_33ec {
+    background-color: #18191a;
+}
+
+.docItemContainer_33ec {
+    border-radius: 7px;
+    border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.docItemContainer_33ec article {
+    padding: 36px;
+    padding-bottom: 0;
+}
+
+.pagination-nav.docusaurus-mt-lg {
+    background-color: #F8FAFC;
+    padding: 36px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+div.docItemCol_3FnS { /* todo: this rule should be in a media query */
+    margin-left: 112px !important;
+    max-width: 800px !important;
+}
+
+footer.docusaurus-mt-lg a {
+    padding: 12px;
+    border-radius: 7px;
+    transition: 0.1s;
+}
+
+footer.docusaurus-mt-lg a:hover {
+    background-color: #F1F5F9;
+}
+
+.pagination-nav__link {
+    background-color: #ffffff;
+}
+
+footer.docusaurus-mt-lg {
+  border-top: 1px solid #dadce0;
+  padding-top: 24px;
+}
+
+
+/* ---------- h1 style : title at the top of the page ---------- */
+.markdown h1 {
+  font-size: 16px;
+  border-bottom: none !important;
+  font-weight: 700 !important;
+  letter-spacing: 1px;
+  color: #2f80ed !important;
+  margin-bottom: 16px;
+  margin-top: -8px;
+  text-transform: uppercase;
+}
+
+
+/* ---------- left nav-bar links ---------- */
+.menu__link {
+    font-weight: 400 !important;
+    padding: 10px 1rem;
+}
+
+.menu__link.menu__link--active.active {
+    color: #2f80ed;
+    font-weight: 500 !important;
+    border-left: 3px solid #2f80ed;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.menu__link--sublist {
+    font-weight: 600 !important;
+}
+
+.menu__link--sublist::after {
+    background: var(--ifm-menu-link-sublist-icon) 50%/2rem 1.5rem;
+    opacity: 0.5;
+}
+
+
+/* ---------- code-style ---------- */
+.codeBlockLines_39YC {
+    line-height: 1.75 !important;
+}
+
+.markdown code {
+    font-size: 14px;
+}

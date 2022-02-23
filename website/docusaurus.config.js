@@ -6,7 +6,7 @@ module.exports = {
   title: 'Clovis Docs',
   tagline: 'Clovis documentation for developers',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/user-docs/website/build/',
+  baseUrl: '/user-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

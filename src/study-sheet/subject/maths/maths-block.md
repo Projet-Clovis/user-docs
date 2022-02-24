@@ -36,3 +36,23 @@ $$ 5x + 3 $$
 va produire :
 
 La formule $$5x+3$$
+
+
+
+## Bloc "Formule"
+
+todo
+
+Change seulement la police d'écriture, il faut mettre les variables (x, etc) en italique.
+
+
+## Quelles sont les commandes LaTeX disponibles ?
+
+Clovis utilise [KaTeX](https://katex.org/) pour produire le LaTeX.
+
+Consulter la [liste des commandes supportées](https://katex.org/docs/supported.html).
+
+
+## Comment mettre du LaTeX dans les blocs colorés ?
+todo
+
